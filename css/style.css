@@ -1,0 +1,209 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background-color: white;
+    height: auto;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+}
+
+.search {
+    float: right;
+    padding: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main-menu {
+    background-color: teal;
+}
+
+.main-menu>ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-menu > ul > li {
+    display: inline-block;
+}
+
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    background-color: black;
+}
+
+.drop > li > a:hover{
+    background-color: orange;
+}
+
+.main-menu>ul>li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 667px;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.content-holder{
+    background-color: royalblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+
+.content h1{
+    font-size: 1.5em;
+}
+.content p{
+    font-size: small;
+}
+
+.sidebar{
+float: left;
+padding: 25px;
+}
+.sidebar h3{
+    color: white;
+}
+ .sidebar ul{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sidebar ul>li>a{
+    display: block;
+    margin-bottom: 5px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}  
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 950px;
+}
+ .footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+}
+
+.footer-box > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+address p {
+    font-size: small;
+}
+
+address p > a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.copy{
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+}
+
+.copy p{
+    margin: 0px;
+    color: white;
+}
+.content img{
+    max-width: 100%;
+}
+.product{
+    width :30%;
+    float:left;
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+}
+/*
+% is dyanamic and better
+margin box ke bhr charo trf 
+padding box ke andr 4ro trf*/
+.product-caption p{
+    font-weight: bold;
+}
+.product-caption del{
+    color: red;
+}
+.product-caption ins{
+    color: green;
+}
+.product-caption a{
+    display: block;
+    background-color: teal;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+    text-transform: uppercase;
+
+}
+.product-caption a:hover{
+    background-color: orange;
+}
